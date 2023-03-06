@@ -19,15 +19,15 @@ from aws_xray_sdk.core import xray_recorder
 from aws_xray_sdk.ext.flask.middleware import XRayMiddleware
 
 # CloudWatch Logs ----
-import watchtower
-import logging
+# import watchtower
+# import logging
 
-# Rollbar ------
-from time import strftime
-import os
-import rollbar
-import rollbar.contrib.flask
-from flask import got_request_exception
+# # Rollbar ------
+# from time import strftime
+# import os
+# import rollbar
+# import rollbar.contrib.flask
+# from flask import got_request_exception
 
 # HONEYCOMB
 from opentelemetry import trace
